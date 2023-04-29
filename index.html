@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="./cryptoArithmetic.js"></script>
+    <script defer src="./index.js"></script>
+    <style>
+      body {
+        max-width: 600px;
+        margin: auto;
+      }
+      .center {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 18px;
+      }
+      .table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <div class="center">
+      <div>
+        <label for="input1">String 1</label>
+        <br />
+        <input id="input1" type="text" />
+      </div>
+      <div>
+        <label for="input2">String 2</label>
+        <br />
+        <input id="input2" type="text" />
+      </div>
+    </div>
+    <br />
+    <div class="center">
+      <div>
+        <label for="result">Result</label>
+        <br />
+        <input id="result" type="text" />
+      </div>
+    </div>
+    <br />
+    <button id="solve" style="margin: auto; display: block">Solve</button>
+    <div id="table"></div>
+  </body>
+</html>
